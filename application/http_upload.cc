@@ -277,7 +277,7 @@ public:
     HttpUploadHandler(int numThreads, 
                      const std::string& dbHost = "localhost",
                      const std::string& dbUser = "root",
-                     const std::string& dbPassword = "123456",
+                     const std::string& dbPassword = "Liu361225466",
                      const std::string& dbName = "file_manager",
                      unsigned int dbPort = 3306)
         : threadPool_("UploadHandler")

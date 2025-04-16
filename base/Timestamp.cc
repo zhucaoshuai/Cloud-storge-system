@@ -1,6 +1,7 @@
 #include "Timestamp.h"
 
 #include <sys/time.h>
+#include <ctime>
 #include <stdio.h>
 #include <inttypes.h>
 

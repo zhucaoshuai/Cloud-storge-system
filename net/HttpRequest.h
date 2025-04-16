@@ -3,6 +3,7 @@
 #include <map>
 #include <string>
 #include <assert.h>
+#include <unordered_map>
 #include "base/copyable.h"
 #include "base/Timestamp.h"
 #include "base/Logging.h"
