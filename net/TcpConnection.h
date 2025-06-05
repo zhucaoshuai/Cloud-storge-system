@@ -12,6 +12,11 @@
 #include <string>
 #include <atomic>
 
+/*
+TcpConnection 类管理着每个网络连接的状态，提供发送数据、检查连接状态和关闭连接的功能。
+它的设计使得每个连接可以独立地处理其生命周期内的各种事件。
+*/
+
 namespace mymuduo {
 namespace net {
 

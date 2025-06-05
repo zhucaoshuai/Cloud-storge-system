@@ -9,6 +9,11 @@
 #include <condition_variable>
 #include <string>
 
+/*
+在客户端中一般要使用 EventLoopThread 类，其主要目的是为了 避免阻塞主线程 并实现高效的异步网络事件处理。
+可以确保客户端的事件循环能够在独立线程中运行，防止主线程因等待网络事件（如连接、数据传输）而阻塞。
+*/
+
 namespace mymuduo {
 namespace net {
 

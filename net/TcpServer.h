@@ -15,6 +15,11 @@
 #include <atomic>
 #include <unordered_map>
 
+/*
+TcpServer 类负责管理网络服务端的行为，包括启动服务器、设置网络连接的回调函数以及消息处理的回调函数。
+这样可以灵活地定义在不同网络事件发生时执行的具体操作，例如接受新连接、连接断开或数据接收等。
+*/
+
 namespace mymuduo {
 namespace net {
 

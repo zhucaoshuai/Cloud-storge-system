@@ -7,6 +7,12 @@
 #include <assert.h>
 #include <cstring>
 
+/*
+Buffer 类用于高效地管理数据缓冲区。它提供一系列操作来读取和处理存储在缓冲区中的数据，
+支持网络字节序的转换和数据的基本处理，如读取、检索和删除操作。
+这是处理TCP流数据的关键部分，因为网络数据可以随机到达，并且可能需要积累足够的数据才能进行处理。
+*/
+
 namespace mymuduo {
 namespace net {
 

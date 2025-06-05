@@ -11,6 +11,12 @@
 #include "base/noncopyable.h"
 #include "Callbacks.h"
 
+/*
+EventLoop 类是事件循环的核心，负责启动和管理事件监控循环。
+通过这个循环，服务器可以非阻塞地监听和响应网络事件（如新的连接请求、数据到达等）。
+它还支持通过定时任务来调度将来某一时刻执行的任务，这对于需要定时检查或更新状态的应用非常有用。
+*/
+
 namespace mymuduo {
 namespace net {
 
