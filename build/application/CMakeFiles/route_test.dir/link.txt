@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++17 -rdynamic -O0 -g -Wall -Wextra -Werror -Wconversion -Wno-reorder -Wno-unused-parameter -Wno-shadow CMakeFiles/route_test.dir/route_test.cc.o -o ../bin/route_test 
